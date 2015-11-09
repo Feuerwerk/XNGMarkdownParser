@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "XNGMarkdownParser"
-  s.version      = "0.3.2"
+  s.version      = "0.3.2.1"
   s.summary      = "A Markdown NSAttributedString parser."
   s.description  = <<-DESC
                     This is a Markdown => NSAttributedString parser built on top
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/xing/XNGMarkdownParser/"
   s.license      = 'Apache License, Version 2.0'
   s.author       = { "XING AG" => "iosdev@xing.com" }
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.source       = { :git => "https://github.com/xing/XNGMarkdownParser.git", :tag => s.version.to_s }
   s.source_files = 'src/*.{h,m,c}'
   s.requires_arc = true
